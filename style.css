@@ -319,6 +319,7 @@
 
 .approch-block {
 	background-color: #f3f3f3;
+	padding-bottom: 90px;
 }
 
 	.approch-container {
@@ -404,6 +405,150 @@
 		font-size: 60px;
 		
 
+	}
+
+.work-block {
+	background-color: #de2b24;
+}
+
+	.work-container {
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 128px;
+	}
+
+	.work-container h3 {
+		margin-top: 110px;
+		color: #ffffff;
+		font-size: 36px;
+	}
+
+	.work-container p {
+		margin-top: 10px;
+		color: #ffffff;
+		font-size: 20px;
+	}
+
+	.white-line {
+		content: " ";
+		display: inline-block;
+		margin-top: 17px;
+		width: 47px;
+		height:  5px;
+		background-color: #ffffff;
+	}
+
+	.work-card {
+		margin-top: 46px;
+	}
+
+	.work-card__top, .work-card__bottom {
+		display: flex;
+	}
+
+	.project__name {
+		background-color: #f35e59;
+		background-image: url('img/plane-icon.png');
+		background-repeat: no-repeat;
+		background-position: 107px 75px; 
+		text-align: center;
+		width: 255px;
+		
+	}
+
+	.project__name h3 {
+		font-size: 26px;
+		margin-top: 138px;
+	}
+
+	.project__name p {
+		font-size: 16px;
+	}
+
+.analysis-block {
+	background-color: #1287bf;
+}
+
+	.analysis-container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.analysis-container h3 {
+		color: #ffffff;
+		margin-top: 100px;
+		font-size: 36px;
+	}
+
+	.analysis-container p {
+		color: #ffffff;
+		margin-top: 11px;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.analysis__btn {
+		margin-top: 18px;
+
+	}
+
+	.analysis__btn img {
+		border: 2px solid #ffffff;
+		border-radius: 30px;
+	}
+
+	.analysis-form__feeld {
+		background-color: #ffffff;
+		margin-top: 53px;
+		padding: 50px 60px 68px 66px;
+		max-width: 680px;
+		box-sizing: border-box;
+		border-radius: 4px;
+	}
+
+	.analysis-form__feeld p {
+		color: #828282;
+		font-size: 14px;
+		margin-bottom: 42px;
+	}
+
+	.analysis-form__feeld form {
+		display: flex;
+		flex-direction: column;
+
+		
+	}
+
+	.analysis-form__feeld input {
+		max-width: 445px;
+		width: 100%;
+		padding: 17px 0 17px 20px;
+		
+		border: 1px solid #d8d8d8;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin: 0 auto 8px auto;
+	}
+
+	.analysis-form__feeld input::placeholder {
+		color: #bbbbbb;
+		font-size: 14px;
+	}
+
+	.analysis-form__feeld input:active {
+		border: 1px solid #1287bf;
+		border: none;
+	}
+
+	.analysis-form__btn {
+		max-width: 160px;
+		color: #ffffff;
+		background-color: #de2b24;
+		padding: 17px 30px;
+		border: none;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin: 36px auto 0 auto;
 	}
 
 	
