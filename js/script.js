@@ -10,6 +10,10 @@ $(function(){
  
 	});
 
+	$('.analysis__btn').on('click', function(){
+		$('.analysis-form__feeld').toggleClass('feeld__hide');
+	});
+
 	$('.analysis__btn').on('click', function(event){
 		event.preventDefault();
 	});
@@ -29,9 +33,7 @@ $(function(){
 		event.preventDefault();
 	});
 
-	$('.analysis__btn').on('click', function(){
-		$('.analysis-form__feeld').toggleClass('feeld__hide');
-	});
+	
 
 
 	// анимация скролла
