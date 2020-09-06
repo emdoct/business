@@ -623,7 +623,8 @@
 		content: url('img/angle.png');
 		position: absolute;
 		top: -31px;
-		left: 45.5%;
+		left: 50%;
+		transform: translate(-50%);
 
 	}
 
@@ -960,10 +961,7 @@
 		justify-content: flex-start;
 	}
 
-	/*.card__project {
-		max-width: 440px;
-		width: 100%;
-	}*/
+	
 
 
 
@@ -1021,11 +1019,7 @@
 		max-width: 345px;
 	}
 
-	.analysis-form__feeld:before {
-		
-		left: 43.5%;
-		
-	}
+	
 
 	.footer-container {
 		padding: 0 20px;
@@ -1051,11 +1045,6 @@
 		font-size: 14px;
 	}
 
-	.analysis-form__feeld:before {
-		
-		left: 43.5%;
-		
-	}
 
 	.social__btns a {
 		
